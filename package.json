@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-framework",
+  "version": "0.0.1",
+  "description": "Web Components based on AngularJS and Bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnicolasarroyo/angularjs-framework"
+  },
+  "bugs": {
+    "url": "https://github.com/gnicolasarroyo/angularjs-framework/issues"
+  },
+  "homepage": "https://github.com/gnicolasarroyo/angularjs-framework",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.2",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}
