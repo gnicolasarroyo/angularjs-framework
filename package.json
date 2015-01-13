@@ -1,17 +1,28 @@
 {
-  "name": "angularjs-framework",
+  "name": "web-ui-angularjs-bootstrap-framework",
   "version": "0.0.1",
-  "description": "Web Components based on AngularJS and Bootstrap",
+  "description": "Web UI framework based on AngularJS and Bootstrap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gnicolasarroyo/angularjs-framework"
+    "url": "https://github.com/gnicolasarroyo/web-ui-angularjs-bootstrap-framework"
   },
   "bugs": {
-    "url": "https://github.com/gnicolasarroyo/angularjs-framework/issues"
+    "url": "https://github.com/gnicolasarroyo/web-ui-angularjs-bootstrap-framework/issues"
   },
-  "homepage": "https://github.com/gnicolasarroyo/angularjs-framework",
+  "homepage": "https://github.com/gnicolasarroyo/web-ui-angularjs-bootstrap-framework",
+  "author": {
+    "name": "G. Nicolas Arroyo",
+    "site": "@gnicoarr"
+    },
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-header": "^1.2.2",
+    "gulp-concat": "^2.4.3",
+    "gulp-uglify": "^1.0.2",
+    "gulp-coffee": "*",
+    "gulp-less": "^2.0.1",
+    "gulp-util": "^3.0.2",
     "karma": "^0.12.28",
     "karma-chrome-launcher": "^0.1.7",
     "karma-firefox-launcher": "^0.1.3",

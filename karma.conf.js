@@ -1,5 +1,6 @@
 // Karma configuration
 // Generated on Thu Dec 04 2014 17:44:32 GMT-0300 (Argentina Standard Time)
+var pkg = require('./package.json');
 
 module.exports = function(config) {
   config.set({
@@ -12,11 +13,16 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
+    //files: [
+    //  'src/core/**/*.js',
+    //  'src/core/**/*.spec.js',
+    //  'src/components/**/*.js',
+    //  'src/components/**/*.spec.js',
+    //],
     files: [
-      'src/core/**/*.js',
-      'src/core/**/*.spec.js',
-      'src/components/**/*.js',
-      'src/components/**/*.spec.js',
+      'dist/libs/*.js',
+      'dist/js/'+pkg.name+'.js',
+      'dist/js/'+pkg.name+'.spec.js'
     ],
 
     // list of files to exclude
